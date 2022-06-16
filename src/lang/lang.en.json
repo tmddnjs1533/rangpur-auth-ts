@@ -1,0 +1,369 @@
+{
+    "test": "english test",
+  "button": {
+    "delete":"delete",
+        "modify":"modify",
+        "more":"more",
+        "next":"next",
+        "detail":"detail",
+        "previous":"previous",
+        "back":"back",
+        "agree":"agree",
+        "add":"add",
+        "submit":"submit",
+        "create":"create",
+        "save":"save",
+        "logout":"logout",
+        "login":"login",
+        "signup":"signup",
+        "filter":"filter",
+        "cancel":"cancel",
+        "close":"close",
+        "initialize":"initialize",
+        "resendEmail":"Request an e-mail again.",
+        "selectAll":"Select All",
+        "selectCancel":"Cancel Select",
+        "attachment":"attachment",
+    "forgotPassword" : "Forgot password?",
+    "newQuestion":"To make inquiries",
+        "addFolder":"add new folder",
+        "showHistory":"show history",
+        "viewFullText":"show full text",
+        "showJSON":"show JSON",
+        "workActionList":"work action list",
+        "showAnnotation":"show annotation",
+        "loadInfo":"show Information of Load",
+        "board":{
+            "list":"View List Bulletin",
+            "thumb":"View Thumbnail Bulletin"
+        },
+        "member":{
+            "add":"add member",
+            "exclude":"exclude member"
+        },
+        "account":{
+            "leave":"Withdrawal",
+            "modify":"Modify Profile",
+            "passwordModify":"Password change"
+        },
+        "withLogin":{
+            "naver": "Continue with naver",
+            "google":"Continue with Google",
+            "kakao":"Continue with kakao"
+        },
+        "auth":{
+            "add":"give Authorization",
+            "delete":"delete Authorization",
+            "modify":"Authorization modify"
+        },
+        "division":{
+            "add":"add division",
+            "delete":"delete division",
+            "modify":"division modify"
+        },
+        "project":{
+            "projectImgModify":"Change Representative Image",
+            "projectResist":"Create Project",
+            "addClass":"Add Class",
+            "addAttribute":"Add Attribute",
+            "selectTool":"Select Tool",
+          "delete": "Delete Project"
+        },
+        "user":{
+            "resist":"User Registration",
+            "passwordInit":"Password Initialization",
+            "lock":"Lock Account",
+            "use":"Use Account",
+            "delete":"Delete User",
+            "allow":"Approve",
+            "unallow":"Unapprove",
+            "privacyModify":"Modifying Personal Information",
+            "tempPasswordCreate":"Generate temporary password",
+            "sortName":"Sort Names"
+        },
+        "mngmt":{
+            "user":"User Management",
+            "auth":"Authorization Management",
+            "division":"Division Management",
+            "team":"Team Management",
+            "tool":"Annotation Tool Management",
+            "menu":"menu Management",
+            "category":"Category Management"
+        },
+        "team":{
+            "add": "Add Team",
+            "delete":"Delete Team",
+            "modify":"Modify Team"
+        },
+        "download":{
+            "download":"download",
+            "img":"image download",
+            "JSON":"JSON download",
+            "all":"Download All"
+        },
+        "pm":{
+            "modify":"Modify Project Manager",
+            "resist":"Add Project Manager"
+        },
+        "file":{
+            "select":"Select File",
+            "distribute":"Distribute Work Load",
+            "withdraw":"Retrieve Work Load",
+            "delete":"Delete File",
+            "upload":"Upload File",
+            "showRejected":"View Rejected Work Load"
+        },
+        "goTo":{
+            "work":{
+                "common":"go to work",
+                "unworked10":"go to work(10 unworked)",
+                "unworked100":"go to work(100 unworked)",
+                "rejected":"go to work(rejected)"
+            },
+            "management":"go to management",
+            "login":"go to login"
+        }
+  },
+  "common":{
+     "placeholder": "Please enter {{name}}",
+     "required":"{{name}} is required."
+  },
+  "fail":{
+        "empty":"No search results found.",
+        "emptyLoad":"The distributed volume no longer exists.",
+        "user":{
+            "invalid":"login information is not correct",
+            "fiveInvalid" :"Password failed more than 5 times, so it has been locked.",
+            "ntAuthEmail":"Please complete the email authentication.",
+            "pwCnfirm":"password confirm is not correct.",
+            "lock":"This account is locked. Please proceed with user authentication to continue. Contact your administrator for more information",
+            "ntAuth":"Unauthorized Account.Please contact the administrator to continue."
+        },
+        "project":{
+            "pm":"{name} is already registered as PM."
+        }
+    },
+    "success":{
+        "msg":"It's been processed normally.",
+        "update":"The modifications have been completed."
+    },
+    "hfat":{
+        "signup" : {
+            "helper": {
+                "useTermAgree" : "I agree to the terms and conditions.",
+                "privacyPolicyAgree" : "I agree with the privacy policy.",
+                "email": "Please enter your email.",
+                "pw": "Please enter your password.",
+                "pwInvalid": "Please enter at least 8 digits including special characters, alphabetic characters, and numbers",
+                "pwcheck": "Please enter your password one more time."
+            }
+        },
+        "msg":{
+            "rejected":"There is a rejected quantity.",
+            "distribute":"You have a new allocation.",
+            "notice":"There is a new notification."
+        },
+        "service":{
+            "qna":{
+                "title":"Q&A",
+                "description":"Do you have any questions? Ask me anything here."
+            },
+            "faq":{
+                "title":"FAQ",
+                "description":"Check out the frequently asked questions."
+            },
+            "mywork":{
+                "load":{
+                    "title":"Check the workload",
+                    "description":"Check the quantity distributed to me in this project.<br />When you select a volume and click the Work button, go to the Work screen and start the work."
+                },
+                "history":{
+                    "title":"Check job history",
+                    "description":"You can check the details of my work so far.<br />You can check all your work so far, all your submissions, and the status of your work's inspection."
+                },
+                "myqna":{
+                    "title":"My Inquiry Details",
+                    "description":"You can check your inquiries in this project."
+                }
+            }
+        },
+        "mngmt":{
+            "projectResist":{
+                "title":"Create Project",
+                "description":"Create a new project.",
+                "helper":{
+                    "pm":"Click the Add Project Manager button to select the responsible PM.",
+                    "objectGoal":"Please enter the target object quantity.",
+                    "frameGoal":"Please enter the target frame quantity.",
+                    "client":"Enter Client name.",
+                    "endDate":"Please enter the closing date of the business.",
+                    "startDate":"Please enter a date for the start of the business.",
+                    "projectNm":"Enter Project Name",
+                    "toolType":"Select a tool to use the project.<br />Choose carefully against modification, do you do after the generation of the project selection tools."
+                }
+            },
+            "projectDetail":{
+                "title":"Project Detail",
+                "description":"Displays the project details."
+            },
+            "projectModify":{
+                "title":"Modify Project",
+                "description":"Modify project information.",
+                "helper":{
+                    "toolType":"Tool selection cannot be modified."
+                }
+            },
+            "boardMngmt":{
+                "notice":{
+                    "title":"Notice",
+                    "description":"Please register an announcement to notify the project members. You can register up to five general and emergency announcements."
+                },
+                "faq":{
+                    "title":"FAQ",
+                    "description":"Project members frequently asked questions of the Register an early answer.Category management category to register much."
+                },
+                "qna":{
+                    "title":"Questions",
+                    "description":"You can answer any questions received from users."
+                }
+            },
+            "member":{
+                "title":"Member Management",
+                "description":"Please select and add users to participate in the project.<br />Added users can split roles by process step and check their work history and contract information when selecting users."
+            },
+            "load":{
+                "title":"Work Load Management",
+                "description":"Manage project files. You can upload files, manage folders, distribute volumes, and retrieve them,<br />as well as check the meta and annotations information of individual files."
+            },
+            "user":{
+                "title":"User Management",
+                "description":"Manage all users who use the system. Inquiry, lock, approval processing is possible, and multiple people can be selected for batch processing."
+            },
+            "project":{
+                "title":"Project Management",
+                "description":"Modify information about the project.<br />You can modify project basic information, tools, processes, and categories.",
+                "toolType":{
+                    "title":"Tool Type",
+                    "description":"Please select a tool to use in your project.<br />If you modify a tool that has already been worked on, an error may occur."
+                },
+                "workflow":{
+                    "title":"Work process",
+                    "description":"Divide steps to complete projects and increase task efficiency.<br />The types and classes of tasks that you need to work with at each stage can be specified separately in the Scope of Work setting."
+                },
+                "guideline":{
+                    "title":"Task Instructions Management",
+                    "description":"Please register the work instructions that members should follow when working on the project. "
+                },
+                "class":{
+                    "title":"Class Information",
+                    "description":"Define the class and property information to assign to the registered tool."
+                }
+            }
+        }
+
+    },
+    "label": {
+        "login": "Login",
+        "keepLogin": "keep me signed in",
+        "socialLogin": "or Continue with",
+        "notUser": "Not registered yet?",
+        "goSignUp": "Create an Account",
+        "outcome": {
+        "frame": "Frame Outcome",
+        "object": "Object Outcome"
+      }
+    },
+    "placeholder": {
+        "email": "Email...",
+        "pw": "Password..."
+    },
+  "errors":{
+        "email":"Please, Check your email.",
+        "pw": "Please, Check your password.",
+
+        "minLength":{"msg":"Please enter 5 or more characters."},
+        "loadSelect":{"msg":"Please select the quantity of work."}
+    },
+  "user" : {
+    "welcomeMsg":"HI {0}, Welcome Back"
+  },
+  "key":{
+        "width":"width",
+        "signupDate":"Subscription Date",
+        "object":"object",
+        "objectPerformance":"Object Performance",
+        "objectGoal": "Object Goal",
+        "isPost":"Posting status",
+        "postDate":"Posted Date",
+        "workStep":"Process Phase",
+        "category":"category",
+        "auth":"authority",
+        "authDescription":"authority description",
+        "authName":"authority name",
+        "authCode":"authority code",
+        "accumulation":"Cumulative Submissions",
+        "pmName":"PM Name",
+        "responsibility":"in Charge",
+        "answerStatus":"Answer Status",
+        "answerDate":"Answer date",
+        "lastModifyDate":"Last Modification Date",
+        "lastModifyUser":"Last Modifier",
+        "questionCategory":"Inquiry classification",
+        "rejectedLoad":"Rejected Quantity",
+        "client":"client name",
+        "num":"number",
+        "distributeDate":"Distribution date",
+        "period":"Business Performance Period",
+        "isUse":"Using status",
+        "birthday":"the date of one’s birth",
+        "height":"height",
+        "division":"division",
+        "divisionNm":"division name",
+        "divisionCode":"division code",
+        "team":"team",
+        "attributeValue":"Attribute Value",
+        "addAttribute":"Register Attribute",
+        "attributeList":"Attribute list",
+        "attributeDetail":"Attribute information",
+        "isAllow":"Allow information",
+        "newDistribute":"New Work Load Quantity",
+        "toolType":"Annotation Tool",
+        "toolInfo":"Annotation Information",
+        "uploadDate":"Upload date",
+        "role":"role",
+        "contact":"contact",
+        "size":"size",
+        "name":"name",
+        "email":"email",
+        "dailySubmit":"Daily Submission Quantity",
+        "processDate":"Processing date",
+        "startDate": "Business Launch Date",
+        "endDate": "Business Deadline",
+        "createdAt":"createdAt",
+        "author":"author",
+        "workStatus":"work status",
+        "isLock":"isLock",
+        "savePath":"Storage Path",
+        "all":"all",
+        "totalSize":"total size",
+        "title":"title",
+        "progress":"progress",
+        "numOfMem":"Number of Participants",
+        "projectAsMem":"Participated Projects",
+        "processingHistory":"Processing history",
+        "classInfo":"Class Information",
+        "file":"file",
+        "filePath":"file path",
+        "fileSize":"file size",
+        "fileType":"file type",
+        "fileNm":"file name",
+        "framePerformance":"frame performance",
+        "frameGoal": "frame goal",
+        "projectNm":"project name",
+        "projectProgress":"project progress",
+        "isNecessaryChecked":"is Required Verification",
+        "currentResponsibility":"current in charge",
+        "extension":"extension",
+    "password": "Password"
+    }
+}

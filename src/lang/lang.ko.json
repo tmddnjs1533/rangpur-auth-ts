@@ -1,0 +1,363 @@
+{
+    "test": "한국어 테스트",
+    "button":{
+        "delete":"삭제",
+        "modify":"수정",
+        "more":"더 보기",
+        "next":"다음",
+        "detail":"상세보기",
+        "previous":"이전",
+        "back":"돌아가기",
+        "agree":"동의",
+        "add":"추가하기",
+        "submit":"등록",
+        "create":"생성하기",
+        "save":"저장하기",
+        "logout":"로그아웃",
+        "login":"로그인",
+        "signup":"회원가입",
+        "filter":"검색필터",
+        "cancel":"취소",
+        "close":"닫기",
+        "initialize":"초기화",
+        "resendEmail":"이메일 다시 요청",
+        "selectAll":"전체선택",
+        "selectCancel":"선택 취소",
+        "attachment":"첨부파일",
+        "forgotPassword":"비밀번호를 잊어버리셨나요?",
+        "findPassword":"비밀번호 찾기",
+        "newQuestion":"새 문의하기",
+        "addFolder":"새폴더",
+        "showHistory":"이력 보기",
+        "viewFullText":"전문보기",
+        "showJSON":"JSON 보기",
+        "workActionList":"작업 액션 리스트 보이기/숨기기",
+        "showAnnotation":"작업된 어노테이션 보기",
+        "loadInfo":"물량 정보 보기",
+        "board":{
+            "list":"목록 보기",
+            "thumb":"썸네일 보기"
+        },
+        "member":{
+            "add":"구성원 추가하기",
+            "exclude":"제외하기"
+        },
+        "account":{
+            "leave":"탈퇴하기",
+            "modify":"프로필 수정",
+            "passwordModify":"비밀번호 수정"
+        },
+        "withLogin":{
+            "naver":"네이버 계정으로 로그인하기",
+            "google":"구글 계정으로 로그인하기",
+            "kakao":"카카오 계정으로 로그인하기"
+        },
+        "auth":{
+            "add":"권한 추가",
+            "delete":"권한 삭제",
+            "modify":"권한 수정"
+        },
+        "division":{
+            "add":"소속 추가하기",
+            "delete":"소속 삭제",
+            "modify":"소속 수정"
+        },
+        "project":{
+            "projectImgModify":"대표 이미지 변경",
+            "projectResist":"프로젝트 생성",
+            "addClass":"클래스 추가",
+            "addAttribute":"속성 추가",
+            "selectTool":"도구 선택",
+            "delete": "프로젝트 삭제"
+        },
+        "user":{
+            "resist":"사용자 등록",
+            "passwordInit":"비밀번호 초기화",
+            "lock":"계정 잠금",
+            "use":"계정 사용",
+            "delete":"사용자 삭제",
+            "allow":"승인 처리",
+            "unallow":"승인 해제",
+            "privacyModify":"개인정보 수정하기",
+            "tempPasswordCreate":"임시 비밀번호 생성",
+            "sortName":"이름정렬"
+        },
+        "mngmt":{
+            "user":"사용자 관리",
+            "auth":"권한 관리",
+            "division":"소속 관리",
+            "team":"팀 관리",
+            "tool":"어노테이션 툴 관리",
+            "menu":"메뉴 관리",
+            "category":"카테고리 관리"
+        },
+        "team":{
+            "add": "팀 추가",
+            "delete":"팀 삭제",
+            "modify":"팀 수정"
+        },
+        "download":{
+            "download":"내려 받기",
+            "img":"이미지 다운로드",
+            "JSON":"JSON 다운로드",
+            "all":"전체 다운로드"
+        },
+        "pm":{
+            "modify":"담당 PM 수정하기",
+            "resist":"담당 PM 추가하기"
+        },
+        "file":{
+            "select":"파일선택",
+            "distribute":"물량분배",
+            "withdraw":"물량회수",
+            "delete":"파일 삭제",
+            "upload":"파일 올리기",
+            "showRejected":"반려 물량만 보기"
+        },
+        "goTo":{
+            "work":{
+                "common":"작업하러 가기",
+                "unworked10":"작업하러 가기(미작업 10건)",
+                "unworked100":"작업하러가기(미작업 100건)",
+                "rejected":"작업하러 가기(반려 물량)"
+            },
+            "management":"관리화면으로",
+            "login":"로그인하기"
+        }
+    },
+    "common":{
+        "placeholder": "{{name}}을(를) 입력해주세요.",
+        "required":"{{name}}은(는) 필수항목입니다."
+    },
+    "fail":{
+        "empty":"검색하신 조건에 맞는 결과가 없습니다.",
+        "emptyLoad":"할당된 물량이 더 이상 존재하지 않습니다. 관리자에게 문의하세요.",
+        "user":{
+            "invalid":"이메일과 비밀번호를 확인해 주세요",
+            "fiveInvalid" :"비밀번호를 5회 이상 실패하여 안전한 이용을 위해 잠금처리되었습니다.",
+            "ntAuthEmail":"이메일 인증을 완료해주세요.",
+            "pwCnfirm":"비밀번호 확인이 일치하지 않습니다.",
+            "lock":"잠겨진 계정입니다. 계속하려면 사용자 인증을 진행해주십시오. 자세한 사항은 관리자에게 문의하십시오",
+            "ntAuth":"승인되지 않은 계정입니다. 계속하려면 관리자에게 문의하십시오"
+        },
+        "project":{
+            "pm":"{{pm}} 님은 이미 PM으로 등록 되어있습니다."
+        }
+    },
+    "success":{
+        "msg":"정상 처리 되었습니다.",
+        "update":"수정이 완료되었습니다."
+    },
+    "errors":{
+        "email":"유효하지 않은 이메일 주소입니다.",
+        "pw": "비밀번호를 입력하세요.",
+
+        "minLength":{"msg":"내용을 5자 이상 입력하세요."},
+        "loadSelect":{"msg":"작업 물량을 선택해주세요."}
+    },
+    "hfat":{
+        "signup" : {
+            "helper": {
+                "useTermAgree" : "이용약관에 동의합니다.",
+                "privacyPolicyAgree" : "개인정보처리방침에 동의합니다.",
+                "email": "이메일을 입력해주세요.",
+                "pw": "비밀번호를 입력해주세요.",
+                "pwInvalid": "특수문자, 영문자, 숫자가 포함하여 8자리 이상 입력해 주세요",
+                "pwcheck": "비밀번호를 한번 더 입력해주세요."
+            }
+        },
+        "msg":{
+            "rejected":"반려된 물량이 있습니다.",
+            "distribute":"새로 할당 받은 물량이 있습니다.",
+            "notice":"새로운 알림이 있습니다."
+        },
+        "service":{
+            "qna":{
+                "title":"문의하기",
+                "description":"문의사항이 있으신가요? 여기에서 무엇이든 물어보세요."
+            },
+            "faq":{
+                "title":"FAQ",
+                "description":"자주 묻는 질문을 확인하세요."
+            },
+            "mywork":{
+                "load":{
+                    "title":"작업 물량 확인",
+                    "description":"이 프로젝트에서 나에게 분배된 물량을 확인하세요.\n물량을 선택하고 작업하기 버튼을 클릭하면 작업 화면으로 이동하여 작업을 시작합니다."
+                },
+                "history":{
+                    "title":"작업 내역 확인",
+                    "description":"내가 지금까지 작업한 내역을 확인할 수 있습니다.\n지금까지 작업, 제출한 모든 내역과 내 작업의 검수 현황을 살필 수 있습니다. "
+                },
+                "myqna":{
+                    "title":"내 문의내역",
+                    "description":"이 프로젝트에서 문의한 내역을 확인할 수 있습니다."
+                }
+            }
+        },
+        "mngmt":{
+            "projectResist":{
+                "title":"Add Project",
+                "description":"신규 프로젝트를 생성합니다.",
+                "helper":{
+                    "pm":"담당자 추가 버튼을 클릭하여 담당 PM을 선택합니다.",
+                    "objectGoal":"목표 객체 수량을 입력 하세요",
+                    "frameGoal":"목표 프레임 수량을 입력 하세요",
+                    "client":"발주기관 명을 입력하세요.",
+                    "endDate":"사업 마감 날짜를 입력 하세요",
+                    "startDate":"사업 착수 날짜를 입력 하세요",
+                    "projectNm":"프로젝트 명을 입력하세요",
+                    "toolType":"프로젝트에서 사용할 도구를 선택해 주세요. 도구 선택은 프로젝트 생성 후 수정이 불가 하니 신중하게 선택해 주세요",
+                    "workstep": "공정 단계 설정은 프로젝트 생성 후 수정이 불가하니 신중하게 선택해주시기 바랍니다."
+                }
+            },
+            "projectDetail":{
+                "title":"Project Detail",
+                "description":"프로젝트 상세 현황을 표시합니다."
+            },
+            "projectModify":{
+                "title":"Modify Project",
+                "description":"프로젝트 정보를 수정합니다.",
+                "helper":{
+                    "toolType":"도구 선택은 수정할 수 없습니다."
+                }
+            },
+            "boardMngmt":{
+                "notice":{
+                    "title":"공지사항",
+                    "description":"프로젝트 구성원들에게 알릴 공지사항을 등록해주세요. 일반 및 긴급 공지사항을 최대 5개까지 등록할 수 있습니다."
+                },
+                "faq":{
+                    "title":"자주묻는질문",
+                    "description":"프로젝트 구성원들이 자주 묻는 질문의 답변을 미리 등록하세요. 카테고리 관리를 통해 카테고리 별로 등록할 수 있습니다."
+                },
+                "qna":{
+                    "title":"문의사항",
+                    "description":"사용자로부터 받은 문의사항에 답변할 수 있습니다."
+                }
+            },
+            "member":{
+                "title":"구성원 관리",
+                "description":"프로젝트에 참여할 사용자를 선택하여 추가해 주세요.\n추가된 사용자들에게 공정단계별로 역할을 분할할 수 있으며 사용자 선택 시 작업 이력 및 계약정보를 확인 할 수 있습니다."
+            },
+            "load":{
+                "title":"물량 관리",
+                "description":"프로젝트 파일을 관리합니다. 파일 업로드, 폴더관리, 물량분배, 회수가 가능할 뿐만 아니라\n개별 파일의 메타정보와 어노테이션 정보를 확인할 수 있습니다."
+            },
+            "user":{
+                "title":"사용자 관리",
+                "description":"시스템을 이용하는 모든 사용자를 관리합니다.\n조회, 잠금, 승인 처리가 가능하며, 여러명 선택하여 일괄 처리도 가능합니다."
+            },
+            "project":{
+                "title":"프로젝트 관리",
+                "description":"프로젝트의 관한 정보를 수정 합니다.\n프로젝트 기본 정보, 도구, 공정 및 카테고리를 수정할 수 있습니다.",
+                "toolType":{
+                    "title":"도구유형",
+                    "description":"프로젝트에서 사용할 도구를 선택해 주세요.\n이미 작업된 도구를 수정할 경우 오류가 발생할 수 있습니다."
+                },
+                "workflow":{
+                    "title":"작업공정",
+                    "description":"프로젝트를 완수하기 위해 단계를 나누고 작업 효율을 높일 수 있습니다.\n각 단계에서 작업해야 하는 작업 유형 및 클래스는 작업범위 설정에서 별도로 지정할 수 있습니다."
+                },
+                "guideline":{
+                    "title":"작업지침 관리",
+                    "description":"구성원들이 프로젝트 작업시 준수해야할 작업지침을 등록해주세요. "
+                },
+                "class":{
+                    "title":"클래스 정보",
+                    "description":"등록된 도구에 지정할 클래스와 속성 정보를 정의 합니다."
+                }
+            }
+        }
+
+    },
+    "label": {
+        "keepLogin": "자동로그인",
+        "socialLogin": "소셜 계정으로 로그인하기",
+        "notUser": "아직 회원이 아니신가요?",
+        "remindPw": "비밀번호를 찾으셨나요?"
+    },
+    "placeholder": {
+        "email": "이메일을 입력해주세요.",
+        "pw": "비밀번호를 입력해주세요."
+    },
+    "key":{
+        "width":"가로",
+        "signupDate":"가입일",
+        "object":"객체",
+        "objectPerformance":"객체 실적",
+        "objectGoal": "목표 객체 수량",
+        "isPost":"게시유무",
+        "postDate":"게시일",
+        "workStep":"공정 단계",
+        "category":"구분",
+        "auth":"권한",
+        "authDescription":"권한 설명",
+        "authName":"권한 이름",
+        "authCode":"권한 코드",
+        "accumulation":"누적 제출 물량",
+        "pmName":"담당 PM",
+        "responsibility":"담당자",
+        "answerStatus":"답변상태",
+        "answerDate":"답변일자",
+        "lastModifyDate":"마지막 수정일",
+        "lastModifyUser":"마지막 수정자",
+        "questionCategory":"문의구분",
+        "rejectedLoad":"반려 물량",
+        "client":"발주기관 명",
+        "num":"번호",
+        "distributeDate":"분배일자",
+        "startDate": "사업 착수일",
+        "endDate": "사업 마감일",
+        "period":"사업 수행 기간",
+        "isUse":"사용유무",
+        "birthday":"생년월일",
+        "height":"세로",
+        "division":"소속",
+        "divisionNm":"소속 이름",
+        "divisionCode":"소속 코드",
+        "team":"소속 팀",
+        "attributeValue":"속성 값",
+        "addAttribute":"속성 등록",
+        "attributeList":"속성 목록",
+        "attributeDetail":"속성 정보",
+        "isAllow":"승인상태",
+        "newDistribute":"신규 분배 물량",
+        "toolType":"어노테이션 도구",
+        "toolInfo":"어노테이션 정보",
+        "uploadDate":"업로드 날짜",
+        "role":"역할",
+        "contact":"연락처",
+        "size":"용량",
+        "name":"이름",
+        "email":"이메일",
+        "dailySubmit":"일일 제출 물량",
+        "processDate":"처리일자",
+        "createdAt":"작성일",
+        "author":"작성자",
+        "workStatus":"작업 현황",
+        "isLock":"잠금유무",
+        "savePath":"저장경로",
+        "all":"전체",
+        "totalSize":"전체 용량",
+        "title":"제목",
+        "progress":"진행률",
+        "numOfMem":"참여 인원",
+        "projectAsMem":"참여 프로젝트",
+        "processingHistory":"처리내역",
+        "classInfo":"클래스 정보",
+        "file":"파일",
+        "filePath":"파일 경로",
+        "fileSize":"파일 용량",
+        "fileType":"파일 타입",
+        "fileNm":"파일명",
+        "framePerformance":"프레임 실적",
+        "frameGoal": "목표 프레임 수량",
+        "projectNm":"프로젝트 명",
+        "projectProgress":"프로젝트 진행도",
+        "isNecessaryChecked":"필수확인 유무",
+        "currentResponsibility":"현재 담당자",
+        "extension":"확장자",
+        "password": "비밀번호"
+    }
+}
